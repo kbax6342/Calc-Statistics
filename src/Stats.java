@@ -20,7 +20,7 @@ while(startOver){
 			
 			int	players = input.nextInt();
 				
-			String [] playersArray = new String [players]  ;
+			String [] playersArray = new String [players];
 			
 			for(int i = 0; i < playersArray.length; i++){
 			
@@ -45,6 +45,7 @@ while(startOver){
 				startOver = true;
 			}else{
 				startOver = false;
+				System.out.println("Thank you for using the Base Ball Statistics app!!");
 			}
 			 
 		}

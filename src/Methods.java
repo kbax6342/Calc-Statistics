@@ -37,6 +37,7 @@ public class Methods {
 	
 		double [] hits = new double[(int) atBat];
 		
+		
 		//for loop created to go through the new array
 		for(int i = 0; i <  hits.length; i++){
 			
